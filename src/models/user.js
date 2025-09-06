@@ -53,4 +53,13 @@ export default class User {
         this.averageRating = total / this.reviews.length;
     }
 
+    update(data) {
+        const updatableFields = ["firstName", "lastName", "username", "email", "phone", "profilePicture", "description"];
+        for (const field of updatableFields) {
+            if (data[field] !== undefined) {
+                this[field] = data[field];
+            }
+        }
+    }
+
 }
