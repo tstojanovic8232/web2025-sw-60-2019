@@ -2,7 +2,7 @@ import "../ui/globals.css";
 import { geistSans, geistMono } from "../ui/fonts.js"
 
 export const metadata = {
-  title: "ECommerce App",
+  title: "Carty",
   description: "Web projekat 2024/2025 ECommerce App",
 };
 
