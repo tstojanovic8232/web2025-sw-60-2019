@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
-import {getAllUsers, addUser } from "@/services/userService"
+import { getAllUsers, addUser } from "@/services/userService"
 
 export async function GET() {
     const users = await getAllUsers();
     return NextResponse.json(users || []);
 }
 
-export async function POST(request) {
-    const newUser = await request.json();
+export async function POST(req) {
+    const newUser = await req.json();
     const success = await addUser(newUser);
 
     if (!success) {

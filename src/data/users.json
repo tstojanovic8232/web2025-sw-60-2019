@@ -1,0 +1,105 @@
+[
+    {
+        "id": "u1",
+        "firstName": "System",
+        "lastName": "Admin",
+        "username": "admin",
+        "email": "admin@example.com",
+        "phone": "+10000000000",
+        "birthDate": "1990-01-01",
+        "profilePicture": null,
+        "description": "Site administrator",
+        "role": "Admin",
+        "blocked": false,
+        "products": [],
+        "reviews": [],
+        "averageRating": 0,
+        "deleted": false,
+        "password": "adminpass"
+    },
+    {
+        "id": "u2",
+        "firstName": "Alice",
+        "lastName": "Miller",
+        "username": "alice.seller",
+        "email": "alice.miller@example.com",
+        "phone": "+381641112233",
+        "birthDate": "1992-05-12",
+        "profilePicture": "https://example.com/avatars/alice.jpg",
+        "description": "Handmade crafts and home decor. Fast shipping.",
+        "role": "Seller",
+        "blocked": false,
+        "products": [
+            "prod-101",
+            "prod-102"
+        ],
+        "reviews": [
+            "r1",
+            "r2"
+        ],
+        "averageRating": 4.5,
+        "deleted": false,
+        "password": "alice123"
+    },
+    {
+        "id": "u3",
+        "firstName": "Bob",
+        "lastName": "Kovač",
+        "username": "bob_the_seller",
+        "email": "bob.kovac@example.com",
+        "phone": "+381641998877",
+        "birthDate": "1985-11-02",
+        "profilePicture": "https://example.com/avatars/bob.png",
+        "description": "Electronics and gadgets, 2-year warranty on all items.",
+        "role": "Seller",
+        "blocked": true,
+        "products": [
+            "p3",
+            "p4",
+            "p5"
+        ],
+        "reviews": [
+            "r3",
+            "r4"
+        ],
+        "averageRating": 3.5,
+        "deleted": false,
+        "password": "bobsecure"
+    },
+    {
+        "id": "u4",
+        "firstName": "Charlie",
+        "lastName": "Novak",
+        "username": "charlie123",
+        "email": "charlie.novak@example.com",
+        "phone": "+381641223344",
+        "birthDate": "2000-07-20",
+        "profilePicture": null,
+        "description": "Buyer and reviewer of home goods.",
+        "role": "Buyer",
+        "blocked": false,
+        "products": [],
+        "reviews": [],
+        "averageRating": 0,
+        "deleted": false,
+        "password": "charlie_pw"
+    },
+    {
+        "id": "u5",
+        "firstName": "Dina",
+        "lastName": "Petrović",
+        "username": "dina_p",
+        "email": "dina.petrovic@example.com",
+        "phone": "+381641556677",
+        "birthDate": "1997-03-30",
+        "profilePicture": "https://example.com/avatars/dina.jpg",
+        "description": "Frequent buyer, leaves detailed reviews.",
+        "role": "Buyer",
+        "blocked": false,
+        "products": [],
+        "reviews": [],
+        "averageRating": 0,
+        "deleted": true,
+        "password": "dinapass"
+    }
+]

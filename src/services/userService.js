@@ -1,5 +1,5 @@
 import { readJson } from "@/lib/fileUtils";
-import { User } from "@/models/user";
+import User from "@/models/user";
 
 // User data wrapper
 
@@ -7,7 +7,7 @@ const FILENAME = "users.json";
 
 async function loadUsers() {
     const data = (await readJson(FILENAME)) || [];
-    return data.map(u => new User(u));
+    return data.map(u => User.fromJSON(u));
 }
 
 async function saveUsers(users) {
